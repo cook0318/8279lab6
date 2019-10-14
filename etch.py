@@ -49,7 +49,7 @@ def changeBackgroundColor(color):
 # main function to create sketches
 def etchASketch(a,b):
     displayText(words,lcd,30,20)
-    lcd.set_pixel(a,b,2)
+    lcd.set_pixel(a,b,1)
     lcd.show()
 
     active = True
